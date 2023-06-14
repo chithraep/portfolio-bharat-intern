@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float");
+
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f8f6ff;
+    --max-width: 1200px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #270082;
+    font-family: "Rancho", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--purple500);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.3s ease-in;
+}
+
+.hero-section {
+    background-color: #270082;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    place-items: center;
+
+}
+
+.hero-section .container {
+    display: flex;
+    margin-top: 140px;
+    flex-direction: column;
+    gap: 30px;
+
+
+
+}
+
+.hero-section h3 {
+    font-size: 60px;
+    color: var(--text-color);
+
+}
+
+.hero-section P {
+    font-size: 20px;
+
+
+}
+
+.hero-section h5 {
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+span {
+    color: #f1177d;
+    font-size: 28px;
+}
+
+.btn {
+
+    color: #000;
+    background: #f8f6ff;
+    border-radius: 8px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--hover-color);
+}
+
+.social {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 20px;
+    margin-left: 100px;
+
+
+
+}
+
+.girl {
+    border-radius: 50%;
+    float: right;
+    margin-right: 200px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 40px;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+
+}
+
+
+
+.checked {
+    color: orange;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    color: #f1177d;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.footer .mscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.footer img {
+    width: 80px;
+}
+
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1b0058;
+    height: 80px;
+}
+
+.link {
+    color: #f1177d;
+}
